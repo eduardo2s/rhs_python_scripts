@@ -14,7 +14,7 @@ import pytesseract
 import os
 from tqdm import tqdm
 
-path = "C:\\Users\\eduar\\Desktop\\teste\\INVENTARIO MUSEOLOGICO MISSOES 2017 (2)\\"
+path = "C:\\path_to_the_folder_where_images_are_stored"
 
 # https://github.com/UB-Mannheim/tesseract/wiki preciso instalar caso esteja utilizando o Windows
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe" 
